@@ -1,4 +1,4 @@
-package Model;
+package Enum;
 
 public enum Success {
     OK ( 0L, "GOOD" ),

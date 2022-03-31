@@ -2,6 +2,7 @@ package Service;
 
 import Dao.LogsDao;
 import Dao.UserDao;
+import Model.User;
 import Model.UserAuthorize;
 import Model.UserRegistration;
 
@@ -13,8 +14,8 @@ public class UserService {
         UserRegistration user = new UserRegistration ( "login", "pass", "email" );
         UserAuthorize userAuthorize = new UserAuthorize ( "email", "pass" );
 
-        //   System.out.println ( UserDao.registration ( user );
-        System.out.println ( UserDao.authorize ( userAuthorize ) );
+          System.out.println ( UserDao.registration(user));
+      //  System.out.println ( UserDao.authorize ( userAuthorize ) );
     }
 }
 
